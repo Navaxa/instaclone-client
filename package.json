@@ -2,7 +2,7 @@
   "name": "cliente",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://navaxa.github.io/criptomonedas/",
+  "homepage": "https://navaxa.github.io/instaclone-client/",
   "dependencies": {
     "@apollo/client": "^3.3.21",
     "@testing-library/jest-dom": "^5.14.1",
