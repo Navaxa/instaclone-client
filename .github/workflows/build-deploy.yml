@@ -21,8 +21,6 @@ jobs:
           ${{ runner.os }}-node-
     - name: Build
       run: |
-        npm cache clean --force
-        npm install
         npm run deploy
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@releases/v3
