@@ -3,8 +3,9 @@ import { setContext } from "apollo-link-context";
 import { createUploadLink } from 'apollo-upload-client';
 import { getToken } from '../utils/token';
 
+// https://instaclone-server.azurewebsites.net/
 const httpLink = createUploadLink({
-    uri: "http://localhost:4000/",
+    uri: "https://instaclone-server.azurewebsites.net/",
 });
 
 const authLink = setContext((_, {headers}) => {
